@@ -1,0 +1,18 @@
+[project]
+name = "element_nice-research"
+version = "0.1.0"
+description = "Add a short description here"
+authors = ["Silvio Traversaro <silvio@traversaro.it>"]
+channels = ["conda-forge"]
+platforms = ["win-64", "linux-64", "osx-64"]
+
+[commands]
+
+[dependencies]
+ipywidgets = "*"
+idyntree = "*"
+numpy = "*"
+matplotlib = "*"
+meshcat-python = "*"
+icub-models = "*"
+jupyter-notebook = "*"
